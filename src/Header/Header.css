@@ -1,0 +1,12 @@
+.header {
+  background-color: black;
+}
+
+#header {
+  background-color: black;
+  font-size: 300px;
+}
+
+#name {
+  color: red;
+}
