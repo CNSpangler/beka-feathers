@@ -1,12 +1,10 @@
-.header {
-  background-color: black;
-}
+.Header {
+  background-image: url('../../public/marble.jpg');
+  background-repeat: repeat;
+  width: 100%;
+  padding: 10px;
 
-#header {
-  background-color: black;
-  font-size: 300px;
-}
-
-#name {
-  color: red;
+  #name {
+    color: red;
+  }
 }

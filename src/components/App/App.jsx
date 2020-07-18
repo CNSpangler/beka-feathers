@@ -7,7 +7,6 @@ import Pubs from '../Pubs';
 import Services from '../Services';
 import Contact from '../Contact';
 import Footer from '../Footer';
-import './App.css';
 
 const history = createBrowserHistory();
 
