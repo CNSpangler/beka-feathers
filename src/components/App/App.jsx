@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
-import Header from '../../Header/Header';
-import Home from '../Home';
-import Pubs from '../Pubs';
-import Services from '../Services';
-import Contact from '../Contact';
-import Footer from '../Footer';
+import Header from '../Header/Header';
+import Home from '../Home/Home';
+import Pubs from '../Pubs/Pubs';
+import Services from '../Services/Services';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 const history = createBrowserHistory();
 

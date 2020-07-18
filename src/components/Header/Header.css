@@ -1,0 +1,14 @@
+.Header {
+  background-image: url('../../../public/marble.jpg');
+  background-repeat: repeat;
+  width: 100%;
+  padding: 10px;
+
+  #name {
+    font-family: 'Pompiere', serif;
+  }
+
+  .subhead {
+    font-family: 'Laila', serif;
+  }
+}
