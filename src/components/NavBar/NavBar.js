@@ -4,11 +4,11 @@ import styles from './NavBar.css';
 
 const NavBar = () => (
   <div className={styles.NavBar}>
-    <NavLink to="/" className="link-text home">HOME</NavLink>
-    <NavLink to="/services" className="link-text services">SERVICES</NavLink>
-    <a href="" className="link-text cv">CV</a>
-    <NavLink to="/publications" className="link-text publications">PUBLICATIONS</NavLink>
-    <NavLink to="/contact" className="contact">CONTACT</NavLink>
+    <NavLink to="/" className={styles.linkText} activeClassName={styles.selected}>HOME</NavLink>
+    <NavLink to="/services" className={styles.linkText} activeClassName={styles.selected}>SERVICES</NavLink>
+    <a href="" className={styles.linkText}>CV</a>
+    <NavLink to="/publications" className={styles.linkText} activeClassName={styles.selected}>PUBLICATIONS</NavLink>
+    <NavLink to="/contact" className={styles.linkText} activeClassName={styles.selected}>CONTACT</NavLink>
   </div>
 );
 

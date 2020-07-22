@@ -11,7 +11,10 @@ const Header = () => (
         <h3 className={styles.subhead}>Rule of Law</h3>
       </div>
       <h3 className={styles.subhead3}>Political Development</h3>
-      <NavBar />
+      <br></br>
+      <div id={styles.navContainer}>
+        <NavBar id={styles.nav} />
+      </div>
     </div>
   </>
 );
