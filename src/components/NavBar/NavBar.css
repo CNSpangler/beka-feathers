@@ -1,6 +1,42 @@
 .NavBar {
-  .link-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "home services cv publications contact";
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: -10px;
+
+  .linkText {
     font-family: 'Fjalla One', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.15rem;
+    background-color: rgb(72, 100, 122);
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
   }
+
+  .linkText:hover {
+    color: rgb(204,157,75);
+    background-color: rgb(72, 100, 122);
+  }
+
+  .selected {
+    background-color: rgb(204,157,75);
+  }
+
+  .home { grid-area: home; }
+
+  .services { grid-area: services; }
+
+  .cv { grid-area: cv; }
+
+  .publications { grid-area: publications; }
+
+  .contact { grid-area: contact; }
 }

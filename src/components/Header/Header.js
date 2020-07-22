@@ -6,10 +6,15 @@ const Header = () => (
   <>
     <div className={styles.Header}>
       <h1 id={styles.name}>BEKA FEATHERS</h1>
-      <h3 className={styles.subhead}>Peace Processes</h3>
-      <h3 className={styles.subhead}>Rule of Law</h3>
-      <h3 className={styles.subhead}>Political Development</h3>
-      <NavBar />
+      <div id={styles.subheadContainer}>
+        <h3 className={styles.subhead}>Peace Processes</h3>
+        <h3 className={styles.subhead}>Rule of Law</h3>
+      </div>
+      <h3 className={styles.subhead3}>Political Development</h3>
+      <br></br>
+      <div id={styles.navContainer}>
+        <NavBar id={styles.nav} />
+      </div>
     </div>
   </>
 );
