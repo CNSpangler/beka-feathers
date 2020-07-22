@@ -1,6 +1,23 @@
 .NavBar {
-  .link-text {
-    font-family: 'Fjalla One', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "home services cv publications contact";
+
+    .link-text {
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
+    text-align: center;
   }
+
+  .home { grid-area: home; }
+
+  .services { grid-area: services; }
+
+  .cv { grid-area: cv; }
+
+  .publications { grid-area: publications; }
+
+  .contact { grid-area: contact; }
 }
