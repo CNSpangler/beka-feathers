@@ -4,7 +4,7 @@ import styles from './NavBar.css';
 
 const NavBar = () => (
   <div className={styles.NavBar}>
-    <NavLink to="/" className={styles.linkText} activeClassName={styles.selected}>HOME</NavLink>
+    <NavLink exact to="/" className={styles.linkText} activeClassName={styles.selected}>HOME</NavLink>
     <NavLink to="/services" className={styles.linkText} activeClassName={styles.selected}>SERVICES</NavLink>
     <a href="" className={styles.linkText}>CV</a>
     <NavLink to="/publications" className={styles.linkText} activeClassName={styles.selected}>PUBLICATIONS</NavLink>

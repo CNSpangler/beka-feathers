@@ -1,0 +1,22 @@
+.Home {
+  margin-right: 10px;
+  margin-left: 10px;
+
+  .bioContainer {
+    background-color: rgba(255, 255, 255, 0.109);
+    color: lightgray;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .bio {
+    max-width: 66%;
+    float: left;
+  }
+
+  .headshot {
+    max-width: 33%;
+    max-height: 75vh;
+  }
+}
