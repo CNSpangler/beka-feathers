@@ -1,16 +1,29 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
+import { 
+  CarouselProvider, 
+  Slider, 
+  Slide, 
+  ButtonBack, 
+  ButtonNext 
+} from 'pure-react-carousel';
 import imageData from './imageData.json';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 import styles from './PhotoCarousel.css';
 
 const photoElements = imageData.map(image => (
-  <div className={styles.imageContainer} key={image.src} >
-    <img className={styles.image} src={image.src} />
-  </div>
+  <Slider className={styles.imageContainer} key={image.src} >
+    <Slide>
+      <img className={styles.image} src={image.src} />
+    </Slide>
+  </Slider>
 ));
 
 const PhotoCarousel = () => (
-  <Carousel className={styles.PhotoCarousel} infiniteLoop useKeyboardArrows autoPlay interval="3000" showThumbs={false}showArrows={true}>{photoElements}</Carousel>
+  <CarouselProvider className={styles.PhotoCarousel} naturalSlideWidth={100} naturalSlideHeight={125} totalSlides={photoElements.length}>
+    {photoElements}
+    <ButtonBack></ButtonBack>
+    <ButtonNext></ButtonNext>
+  </CarouselProvider>
 );
 
 export default PhotoCarousel;
