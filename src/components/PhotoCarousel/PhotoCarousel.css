@@ -1,0 +1,12 @@
+.PhotoCarousel {
+  .imageContainer {
+    background-color: red;
+    width: 90%;
+    max-height: 60vh;
+  }
+
+  .image {
+    max-width: 90%;
+    max-height: 50vh;
+  }
+}
