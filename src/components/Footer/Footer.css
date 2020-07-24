@@ -1,0 +1,17 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+
+  a {
+    margin: 0 25px;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  a:active {
+    color: yellow;
+  }
+}
