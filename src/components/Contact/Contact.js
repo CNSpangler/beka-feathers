@@ -11,7 +11,7 @@ const Contact = () => (
 
       <div className={styles.contactCard}>
         <img src="caps-lock.png" />
-        <a href="mailto:beka.feathers@protonmail.com" target="_blank" rel="noreferrer" >Secure Email</a>
+        <a href="mailto:beka.feathers@protonmail.com" target="_blank" rel="noreferrer" >Protonmail</a>
       </div>
 
       <div className={styles.contactCard}>
