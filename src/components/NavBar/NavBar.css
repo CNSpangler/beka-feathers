@@ -26,6 +26,11 @@
     background-color: rgb(72, 100, 122);
   }
 
+  .linkText:active {
+    color: rgba(204, 157, 75, 0.5);
+    background-color: rgba(72, 100, 122, 0.514);
+  }
+
   .selected {
     background-color: rgb(204,157,75);
   }

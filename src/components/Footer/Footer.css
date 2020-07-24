@@ -1,0 +1,30 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-image: url('../../../public/marble.jpg');
+  background-repeat: repeat;
+  padding: 10px;
+
+  span {
+    padding: 5px;
+  }
+
+  a {
+    margin: 0 25px;
+    color: black;
+    padding: 5px;
+  }
+
+  a:hover {
+    color: rgb(72, 100, 122);
+    background-color: rgb(204,157,75);
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+
+  a:active {
+    color: rgb(204,157,75);
+    background-color: rgba(72, 100, 122, 0.514);
+  }
+}
