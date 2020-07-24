@@ -3,6 +3,7 @@
 
   .contactContainer {
     flex-direction: column;
+    background-color: red;
   }
 
   .contactCard {
