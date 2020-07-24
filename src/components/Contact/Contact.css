@@ -7,7 +7,14 @@
   .contactCard {
     height: 10vh;
     width: 35vw;
-    background-image: url('../../../public/marble.jpg');
-    background-repeat: repeat;
+    color: rgb(72, 100, 122);
+    background-color: rgb(204,157,75);
+    border: solid 2px rgb(72, 100, 122);
+    border-radius: 10px;
+    align-content: center;
+  }
+
+  img {
+    height: 1.3rem;
   }
 }
