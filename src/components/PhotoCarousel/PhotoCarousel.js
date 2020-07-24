@@ -10,7 +10,19 @@ const photoElements = imageData.map(image => (
 ));
 
 const PhotoCarousel = () => (
-  <Carousel className={styles.PhotoCarousel} >{photoElements}</Carousel>
+  <div className={PhotoCarousel}>
+    <Carousel 
+      className={styles.PhotoCarousel} 
+      autoplay={true} 
+      autoplayInterval={2300}
+      enableKeyboardControls={true}
+      transitionMode="fade"
+      width="60%"
+      wrapAround={true}
+    >
+      {photoElements}
+    </Carousel>
+  </div>
 );
 
 export default PhotoCarousel;

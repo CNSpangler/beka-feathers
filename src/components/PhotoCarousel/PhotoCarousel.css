@@ -1,8 +1,8 @@
 .PhotoCarousel {
+  padding: 10px;
+  margin-left: 20%;
 
   .imageContainer {
-    width: 60%;
-    max-height: 50vh;
   }
 
   .image {
