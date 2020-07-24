@@ -14,7 +14,7 @@ const Home = () => (
       </div>
       <img className={styles.headshot} src="headshot.jpg" alt="Beka Feathers smiling at the camera in an outdoor setting." />
     </div>
-    {/* <PhotoCarousel /> */}
+    <PhotoCarousel />
   </div>
 );
 
