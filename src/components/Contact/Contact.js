@@ -6,23 +6,38 @@ const Contact = () => (
     <div className={styles.cardContainer}>
       <div className={styles.contactCard}>
         <img src="email.png" />
-        <a href="mailto:beka.feathers@gmail.com" target="_blank" rel="noreferrer">Email</a>
+        <a 
+          href="mailto:beka.feathers@gmail.com" 
+          target="_blank" 
+          rel="noreferrer"
+        >Email</a>
       </div>
 
       <div className={styles.contactCard}>
         <img src="caps-lock.png" />
-        <a href="mailto:beka.feathers@protonmail.com" target="_blank" rel="noreferrer" >Protonmail</a>
+        <a 
+          href="mailto:beka.feathers@protonmail.com" target="_blank" 
+          rel="noreferrer"
+        >Protonmail</a>
       </div>
 
       <div className={styles.contactCard}>
         <img src="twitter.png" />
-        <a href="https://twitter.com/messages/compose?recipient_id=106555952"
-          data-screen-name="@feathersb">Twitter</a>
+        <a 
+          href="https://twitter.com/messages/compose?recipient_id=106555952"
+          data-screen-name="@feathersb"
+          target="_blank"
+          rel="noreferrer"
+        >Twitter</a>
       </div>
 
       <div className={styles.contactCard}>
         <img src="skype.png" />
-        <a href="https://join.skype.com/invite/DzcouHgYvc4o">Skype</a>
+        <a 
+          href="https://join.skype.com/invite/DzcouHgYvc4o"
+          target="_blank" 
+          rel="noreferrer"
+        >Skype</a>
       </div>
     </div>
   </div>
