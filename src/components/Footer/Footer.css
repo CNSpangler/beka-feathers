@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  background-color: lightgray;
+  background-image: url('../../../public/marble.jpg');
+  background-repeat: repeat;
   padding: 10px;
 
   span {

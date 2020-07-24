@@ -15,6 +15,17 @@ const PhotoCarousel = () => (
       className={styles.PhotoCarousel} 
       autoplay={true} 
       autoplayInterval={2300}
+      defaultControlsConfig={{ 
+        prevButtonStyle: {
+          display: 'none'
+        },
+        nextButtonStyle: {
+          display: 'none'
+        },
+        pagingDotsStyle: {
+          display: 'none'
+        }
+      }}
       enableKeyboardControls={true}
       transitionMode="fade"
       width="60%"
