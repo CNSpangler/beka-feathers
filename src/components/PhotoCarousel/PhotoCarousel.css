@@ -12,4 +12,9 @@
     max-width: 90%;
     max-height: 50vh;
   }
+
+  .button {
+    display: none;
+    visibility: hidden;
+  }
 }

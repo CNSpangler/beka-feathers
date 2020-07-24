@@ -8,14 +8,10 @@ const Footer = () => (
       <a href="https://twitter.com/feathersb?lang=en" target="_blank" rel="noreferrer">Twitter</a>
     </div>
 
-    {/* <span>|</span> */}
-
     <div className={styles.contact}>
       <img src="linkedin.png" />
       <a href="https://www.linkedin.com/in/beka-feathers-53b3b71a/" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
-
-    {/* <span>|</span> */}
 
     <div className={styles.contact}>
       <img src="email.png" />
