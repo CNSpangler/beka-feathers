@@ -1,12 +1,12 @@
 .Contact {
   display: flex;
-
-  .contactContainer {
-    flex-direction: column;
-    background-color: red;
-  }
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 
   .contactCard {
+    height: 10vh;
+    width: 35vw;
     background-image: url('../../../public/marble.jpg');
     background-repeat: repeat;
   }
