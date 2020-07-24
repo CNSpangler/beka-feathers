@@ -9,6 +9,16 @@ const photoElements = imageData.map(image => (
   </div>
 ));
 
+// const photoElements = imageData.map(image => {
+//   Object.keys(image).includes('src')
+//     ? (
+//       <div className={styles.imageContainer} key={image.src} >
+//         <img className={styles.image} src={image.src} />
+//       </div>
+//     )
+//     : (<span>{image.text}</span>);
+// });
+
 const PhotoCarousel = () => (
   <div className={PhotoCarousel}>
     <Carousel 

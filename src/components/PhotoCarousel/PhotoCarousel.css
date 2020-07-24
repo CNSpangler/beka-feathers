@@ -1,15 +1,19 @@
 .PhotoCarousel {
   padding: 10px;
-  margin-left: 20%;
+  width: 60vw;
 
   .imageContainer {
     display: flex;
     justify-content: center;
-    align-content: center;
   }
 
   .image {
     max-width: 90%;
     max-height: 50vh;
+  }
+
+  .button {
+    display: none;
+    visibility: hidden;
   }
 }

@@ -1,50 +1,66 @@
 [
   {
-    "src": "01.jpg"
+    "src": "01.jpg",
+    "type": "image"
   },
   {
-    "src": "02.jpg"
+    "src": "02.jpg",
+    "type": "image"
   },
   {
-    "src": "03.jpg"
+    "src": "03.jpg",
+    "type": "image"
   },
   {
-    "src": "04.jpg"
+    "src": "04.jpg",
+    "type": "image"
   },
   {
-    "src": "05.jpg"
+    "src": "05.jpg",
+    "type": "image"
   },
   {
-    "src": "06.jpg"
+    "src": "06.jpg",
+    "type": "image"
   },
   {
-    "src": "07.jpg"
+    "src": "07.jpg",
+    "type": "image"
   },
   {
-    "src": "08.jpg"
+    "src": "08.jpg",
+    "type": "image"
   },
   {
-    "src": "09.jpg"
+    "src": "09.jpg",
+    "type": "image"
   },
   {
-    "src": "10.jpg"
+    "src": "10.jpg",
+    "type": "image"
   },
   {
-    "src": "11.jpg"
+    "src": "11.jpg",
+    "type": "image"
   },
   {
-    "src": "12.jpg"
+    "src": "12.jpg",
+    "type": "image"
   },
   {
-    "src": "13.jpg"
+    "src": "13.jpg",
+    "type": "image"
   },
   {
-    "src": "15.jpg"
+    "src": "15.jpg",
+    "type": "image"
   },
   {
-    "src": "16.jpg"
+    "src": "16.jpg",
+    "type": "image"
   },
   {
-    "src": "17.jpg"
+    "src": "17.jpg",
+    "type": "image"
   }
 ]

@@ -1,0 +1,50 @@
+.Contact {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+
+  a {
+    color: black;
+  }
+
+  .cardContainer {
+    background-image: url('../../../public/marble.jpg');
+    background-repeat: repeat;
+    width: 40vw;
+    margin-top: 4rem;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid 2px rgb(204,157,75);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactCard {
+    height: 10vh;
+    width: 30vw;
+    margin: 0.3rem;
+    background-color: rgb(204,157,75);
+    border: solid 2px rgb(72, 100, 122);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactCard:hover {
+    background-color: rgb(72, 100, 122);
+    color: rgb(204,157,75);
+    border: solid 2px rgb(204,157,75);
+  }
+
+  img {
+    height: 1.8rem;
+    margin-right: 0.5rem;
+  }
+}

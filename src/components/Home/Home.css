@@ -1,13 +1,18 @@
 .Home {
   margin-right: 10px;
   margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 10px;
 
   .bioContainer {
     background-color: rgba(255, 255, 255, 0.109);
-    color: lightgray;
-    font-weight: bolder;
-    font-size: 1rem;
-    padding: 10px;
+    color: rgb(228, 226, 226);
+    height: auto;
+    padding: 1rem;
   }
 
   .bio {
@@ -18,5 +23,16 @@
   .headshot {
     max-width: 33%;
     max-height: 75vh;
+  }
+
+  .review {
+    border-radius: 15px;
+    width: 30vw;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.109);
+    color: rgb(228, 226, 226);
+    height: auto;
+    padding: 1rem;
+    border: solid 2px rgb(204,157,75);
   }
 }
