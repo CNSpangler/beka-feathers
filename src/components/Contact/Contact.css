@@ -1,0 +1,12 @@
+.Contact {
+  display: flex;
+
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactCard {
+    background-image: url('../../../public/marble.jpg');
+    background-repeat: repeat;
+  }
+}

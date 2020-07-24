@@ -1,9 +1,15 @@
 import React from 'react';
+import styles from './Contact.js';
 
 const Contact = () => (
-  <>
-    <h2>contact page coming soon</h2>
-  </>
+  <div className={StyleSheet.Contact}>
+    <div className={styles.contactContainer}>
+      <a href="" className={styles.contactCard}/>
+      <a href="" className={styles.contactCard}/>
+      <a href="" className={styles.contactCard}/>
+      <a href="" className={styles.contactCard}/>
+    </div>
+  </div>
 );
 
 export default Contact;
