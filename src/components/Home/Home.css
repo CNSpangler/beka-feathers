@@ -28,16 +28,10 @@
   .bottomContainer {
     width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 1px 1px;
-    grid-template-areas: "carousel review";
   }
 
   .carousel {
     width: 60vw;
-    border: solid 2px black;
   }
 
   .review {
