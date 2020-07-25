@@ -25,9 +25,25 @@
     max-height: 75vh;
   }
 
+  .bottomContainer {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "carousel review";
+  }
+
+  .carousel {
+    width: 60vw;
+    border: solid 2px black;
+  }
+
   .review {
     border-radius: 15px;
     width: 30vw;
+    height: auto;
     float: left;
     background-color: rgba(255, 255, 255, 0.109);
     color: rgb(228, 226, 226);

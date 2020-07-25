@@ -14,9 +14,11 @@ const Home = () => (
       </div>
       <img className={styles.headshot} src="headshot.jpg" alt="Beka Feathers smiling at the camera in an outdoor setting." />
     </div>
-    <PhotoCarousel />
-    <div className={styles.review}>
-      <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+    <div className={styles.bottomContainer}>
+      <PhotoCarousel className={styles.carousel} />
+      <div className={styles.review}>
+        <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+      </div>
     </div>
   </div>
 );
