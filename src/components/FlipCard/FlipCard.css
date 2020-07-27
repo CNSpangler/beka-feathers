@@ -1,0 +1,57 @@
+.FlipCard {
+  max-width: 45vw;
+  height: 35vh;
+
+  .flipCardContainer {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    perspective: 1000px;
+    padding: 1.2rem;
+    margin: 1rem;
+    border: 1px solid #f1f1f1;
+    border-radius: 15px;  
+  }
+
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: e("preserve-3d");
+    overflow: visible;
+  }
+
+  .flipCardContainer:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+
+  // .flipCardFront .flipCardBack {
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 100%;
+  //   backface-visibility: hidden;
+  // }
+
+  .flipCardFront {
+    font-family: 'Pompiere', sans-serif;
+    background-color: blue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+  }
+
+  .flipCardBack {
+    font-family: 'Halant', serif;
+    background-color: goldenrod;
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+  }
+}

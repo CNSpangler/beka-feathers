@@ -1,6 +1,7 @@
 .Services {
-
+  
   .flipCards {
     background-color: red;
+    padding: 2rem;
   }
 }

@@ -4,7 +4,7 @@ import servicesData from './servicesData.json';
 import styles from './Services.css';
 
 const flipElements = servicesData.map(service => (
-  <FlipCard key={service.title}>{service.title}</FlipCard>
+  <FlipCard key={service.title} title={service.title} description={service.description}>{service.title}</FlipCard>
 ));
 
 const Services = () => (
