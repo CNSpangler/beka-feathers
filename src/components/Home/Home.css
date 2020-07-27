@@ -43,6 +43,7 @@
     color: rgb(228, 226, 226);
     height: auto;
     padding: 1rem;
+    margin: 0.5rem;
     border: solid 2px rgb(204,157,75);
   }
 }

@@ -20,6 +20,12 @@ const Home = () => (
       <div className={styles.review}>
         <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
       </div>
+      <div className={styles.review}>
+        <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+      </div>
+      <div className={styles.review}>
+        <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+      </div>
     </div>
   </div>
 );
