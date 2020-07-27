@@ -16,13 +16,13 @@
   }
 
   .bio {
-    max-width: 66%;
-    float: left;
+    text-align: justify;
   }
 
   .headshot {
-    max-width: 33%;
-    max-height: 75vh;
+    max-height: 60vh;
+    float: right;
+    padding-left: 1.2rem;
   }
 
   .bottomContainer {

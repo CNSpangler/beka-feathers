@@ -5,6 +5,11 @@
   width: 100%;
   padding: 10px;
   flex-direction: column;
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
   
   .subhead {
     font-family: 'Laila', serif;
