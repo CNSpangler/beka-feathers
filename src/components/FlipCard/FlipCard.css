@@ -19,20 +19,13 @@
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
-    transform-style: e("preserve-3d");
+    transform-style: preserve-3d;
     overflow: visible;
   }
 
   .flipCardContainer:hover .flipCardInner {
     transform: rotateY(180deg);
   }
-
-  // .flipCardFront .flipCardBack {
-  //   position: absolute;
-  //   width: 100%;
-  //   height: 100%;
-  //   backface-visibility: hidden;
-  // }
 
   .flipCardFront {
     font-family: 'Pompiere', sans-serif;
@@ -41,7 +34,7 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-
+    transform: rotateY(0deg);
   }
 
   .flipCardBack {
@@ -52,6 +45,5 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-
   }
 }
