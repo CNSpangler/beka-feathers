@@ -8,13 +8,6 @@ const Header = () => (
       <div className={styles.banner}>
         <img src="header.png" />
       </div>
-      {/* <h1 id={styles.name}>BEKA FEATHERS</h1>
-      <div id={styles.subheadContainer}>
-        <h3 className={styles.subhead}>Peace Processes</h3>
-        <h3 className={styles.subhead}>Rule of Law</h3>
-      </div>
-      <h3 className={styles.subhead3}>Political Development</h3>
-      <br></br> */}
       <div id={styles.navContainer}>
         <NavBar />
       </div>
