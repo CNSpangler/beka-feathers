@@ -16,23 +16,34 @@
   }
 
   .bio {
-    max-width: 66%;
-    float: left;
+    text-align: justify;
   }
 
   .headshot {
-    max-width: 33%;
-    max-height: 75vh;
+    max-height: 60vh;
+    float: right;
+    padding-left: 1.2rem;
+  }
+
+  .bottomContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel {
+    width: 60vw;
   }
 
   .review {
     border-radius: 15px;
     width: 30vw;
+    height: auto;
     float: left;
     background-color: rgba(255, 255, 255, 0.109);
     color: rgb(228, 226, 226);
     height: auto;
     padding: 1rem;
+    margin: 0.5rem;
     border: solid 2px rgb(204,157,75);
   }
 }

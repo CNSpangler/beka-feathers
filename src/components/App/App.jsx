@@ -13,7 +13,7 @@ const history = createBrowserHistory();
 export default function App() {
   return (
     <Router history={history}>
-      <Header></Header>
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/publications" component={Pubs} />
