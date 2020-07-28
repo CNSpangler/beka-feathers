@@ -19,12 +19,15 @@ const Home = () => (
       <PhotoCarousel className={styles.carousel} />
       <div className={styles.review}>
         <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+        <p>-High Risk Wife / #1 Fan</p>
       </div>
       <div className={styles.review}>
         <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+        <p>-Barack Obama</p>
       </div>
       <div className={styles.review}>
         <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+        <p>-Basically Everyone</p>
       </div>
     </div>
   </div>

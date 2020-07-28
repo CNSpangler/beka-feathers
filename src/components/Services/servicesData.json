@@ -1,22 +1,27 @@
 [
   {
-    "title": "Program Design",
-    "description": "Beka is good at it"
+    "title": "PROGRAM DESIGN",
+    "description": "Beka is good at it",
+    "class": "boxOne"
   },
   {
-    "title": "Monitoring and Evaluation",
-    "description": "Beka is good at it"
+    "title": "MONITORING AND EVALUATION",
+    "description": "Beka is good at it",
+    "class": "boxTwo"
   },
   {
-    "title": "Conflict Analysis",
-    "description": "Beka is good at it"
+    "title": "CONFLICT ANALYSIS",
+    "description": "Beka is good at it",
+    "class": "boxThree"
   },
   {
-    "title": "Mediation Support",
-    "description": "Beka is good at it"
+    "title": "MEDIATION SUPPORT",
+    "description": "Beka is good at it",
+    "class": "boxFour"
   },
   {
-    "title": "Technical Drafting",
-    "description": "Beka is good at it"
+    "title": "TECHNICAL DRAFTING",
+    "description": "Beka is good at it",
+    "class": "boxFive"
   }
 ]
