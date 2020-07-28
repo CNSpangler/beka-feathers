@@ -1,6 +1,7 @@
 .Pubs {
   font-weight: bolder;
   font-size: 1rem;
+  text-align: justify;
   color: rgb(228, 226, 226);
   height: auto;
   margin-right: 10px;
@@ -47,6 +48,14 @@
     font-weight: bolder;
     color: white;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(72, 100, 122);
+  }
+
+  a:active {
+    color: rgb(153, 66, 66);
   }
 
   .colorBox {
