@@ -29,4 +29,10 @@
     font-size: 1.2rem;
     text-align: justify;
   }
+
+  .servicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+  }
 }
