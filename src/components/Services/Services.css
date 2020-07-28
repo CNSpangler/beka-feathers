@@ -30,10 +30,21 @@
     text-align: justify;
   }
 
-
   .flipCards {
-    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "boxOne boxOne boxTwo boxTwo" "boxThree boxThree boxFour boxFour" ". boxFive boxFive .";
   }
-
-
+  
+  .boxOne { grid-area: boxOne; }
+  
+  .boxTwo { grid-area: boxTwo; }
+  
+  .boxThree { grid-area: boxThree; }
+  
+  .boxFour { grid-area: boxFour; }
+  
+  .boxFive { grid-area: boxFive; }
 }
