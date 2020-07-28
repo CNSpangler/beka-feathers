@@ -1,0 +1,81 @@
+.Pubs {
+  font-weight: bolder;
+  font-size: 1rem;
+  text-align: justify;
+  color: rgb(228, 226, 226);
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  padding: 10px;
+
+  .bookContainer {
+    border: solid rgb(204,157,75) 2px;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.109);
+  }
+
+  .bookTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;;
+  }
+
+  img {
+    height: 40vh;
+    float: left;
+    margin: 0 1.5rem 0 0;
+  }
+
+  h3 {
+
+    margin-bottom: .4rem;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  a {
+    background-color: rgb(204,157,75);
+    border-radius: 7px;
+    border: solid 2px rgb(72, 100, 122);
+    height: 2rem;
+    padding: .5rem;
+    margin-right: 1rem;
+    font-family: 'Halant', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(72, 100, 122);
+  }
+
+  a:active {
+    color: rgb(153, 66, 66);
+  }
+
+  .colorBox {
+    background-color: rgb(153, 66, 66);
+    color: white;
+    width: 125px;
+    height: 85px;
+    padding: 1rem;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  .review {
+    background-color: rgb(204,157,75);
+    border: solid 2px rgb(72, 100, 122);
+    margin: 0 3rem;
+    color: black;
+    border-radius: 15px;
+    padding: 1.3rem 2rem;
+  }
+}
