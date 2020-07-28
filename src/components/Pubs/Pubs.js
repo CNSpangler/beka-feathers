@@ -1,5 +1,10 @@
 import React from 'react';
 import styles from './Pubs.css';
+// import biblioData from './biblioData.json';
+
+// const biblioElements = biblioData.map(item => (
+//   <a key={item.link} href={item.link}>{item.title}, {item.year}</a>
+// ));
 
 const Pubs = () => (
   <div className={styles.Pubs}>
@@ -20,6 +25,10 @@ const Pubs = () => (
       <p></p>
       <p className={styles.review}></p>
     </div>
+
+    {/* <div className={styles.bibliography}>
+      {biblioElements}
+    </div> */}
   </div>
 );
 
