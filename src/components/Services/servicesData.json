@@ -1,0 +1,27 @@
+[
+  {
+    "title": "PROGRAM DESIGN",
+    "description": "Beka is good at it",
+    "class": "boxOne"
+  },
+  {
+    "title": "MONITORING AND EVALUATION",
+    "description": "Beka is good at it",
+    "class": "boxTwo"
+  },
+  {
+    "title": "CONFLICT ANALYSIS",
+    "description": "Beka is good at it",
+    "class": "boxThree"
+  },
+  {
+    "title": "MEDIATION SUPPORT",
+    "description": "Beka is good at it",
+    "class": "boxFour"
+  },
+  {
+    "title": "TECHNICAL DRAFTING",
+    "description": "Beka is good at it",
+    "class": "boxFive"
+  }
+]
