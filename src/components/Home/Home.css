@@ -22,6 +22,9 @@
     
     @media only screen and (max-width: 600px) {
       text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 
@@ -32,6 +35,7 @@
 
     @media only screen and (max-width: 600px) {
       max-height: 33vh;
+      width: auto;
       float: none;
     }
   }
