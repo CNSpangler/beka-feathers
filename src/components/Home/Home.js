@@ -16,7 +16,9 @@ const Home = () => (
       </div>
     </div>
     <div className={styles.bottomContainer}>
-      <PhotoCarousel className={styles.carousel} />
+      <div className={styles.carouselContainer}>
+        <PhotoCarousel className={styles.carousel} />
+      </div>
       <div className={styles.review}>
         <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
         <p>-High Risk Wife / #1 Fan</p>
