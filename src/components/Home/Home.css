@@ -21,9 +21,13 @@
 
     
     @media only screen and (max-width: 600px) {
-      text-align: left;
+      text-align: justify;
+    }
+  }
+
+  .headshotContainer {
+    @media only screen and (max-width: 600px) {
       display: flex;
-      flex-direction: column;
       justify-content: center;
     }
   }
@@ -37,6 +41,7 @@
       max-height: 33vh;
       width: auto;
       float: none;
+      padding-left: 0;
     }
   }
 
