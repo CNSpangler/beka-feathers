@@ -14,12 +14,14 @@
     height: auto;
     padding: 1rem;
 
+    @media only screen and (max-width: 600px) {
+      border-radius: 15px;
+    }
   }  
 
   .bio {
     text-align: justify;
 
-    
     @media only screen and (max-width: 600px) {
       text-align: justify;
     }
