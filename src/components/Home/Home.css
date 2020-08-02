@@ -71,5 +71,11 @@
     padding: 1rem;
     margin: 0.5rem;
     border: solid 2px rgb(204,157,75);
+
+    @media only screen and (max-width: 600px) {
+      float: none;
+      width: 90vw;
+      margin: 2vh 0;
+    }
   }
 }
