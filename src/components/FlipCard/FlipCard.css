@@ -4,6 +4,10 @@
   margin: 7px;
   display: flex;
 
+  @media only screen and (max-width: 600px) {
+    width: 90vw;
+  }
+
   .flipCardContainer {
     height: 100%;
     width: 100%;
