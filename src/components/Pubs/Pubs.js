@@ -11,7 +11,7 @@ const Pubs = () => (
     <div className={styles.bookContainer}>
       <div className={styles.bookTextContainer}>
         <img src="CONSTITUTIONS.png" />
-        <div>
+        <div className={styles.titleAuth}>
           <h3>Re:Constitutions<br />Connecting Citizens with the Rules of The Game</h3>
           <h4>Beka Feathers with art by Kasia Babis</h4>
           <a href="https://read.macmillan.com/worldcitizencomics/reconstitutions/">BOOKSHOP</a>

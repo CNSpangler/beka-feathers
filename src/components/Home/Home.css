@@ -13,21 +13,49 @@
     color: rgb(228, 226, 226);
     height: auto;
     padding: 1rem;
+
+    @media only screen and (max-width: 600px) {
+      border-radius: 15px;
+    }
   }  
 
   .bio {
     text-align: justify;
+
+    @media only screen and (max-width: 600px) {
+      text-align: justify;
+    }
+  }
+
+  .headshotContainer {
+    @media only screen and (max-width: 600px) {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   .headshot {
     max-height: 60vh;
     float: right;
     padding-left: 1.2rem;
+
+    @media only screen and (max-width: 600px) {
+      max-height: 33vh;
+      width: auto;
+      float: none;
+      padding-left: 0;
+    }
   }
 
   .bottomContainer {
     width: 100%;
     height: auto;
+  }
+
+  .carouselContainer {
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
   }
 
   .carousel {
@@ -45,5 +73,11 @@
     padding: 1rem;
     margin: 0.5rem;
     border: solid 2px rgb(204,157,75);
+
+    @media only screen and (max-width: 600px) {
+      float: none;
+      width: 90vw;
+      margin: 2vh 0;
+    }
   }
 }
