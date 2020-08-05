@@ -27,6 +27,29 @@
     }
   }
 
+  button {
+    display: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem 0;
+    background-color: rgb(204,157,75);
+    border: solid 2px rgb(72, 100, 122); 
+
+    @media only screen and (max-width: 600px) {
+      display: block;
+    }
+  }
+
+  .bioOverflow {
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
   .headshotContainer {
     @media only screen and (max-width: 600px) {
       display: flex;
