@@ -34,25 +34,31 @@ const Home = () => {
               <p>She is registered with the California Bar.</p>
             </div>
           }
-
         </div>
       </div>
       <div className={styles.bottomContainer}>
+
         <div className={styles.carouselContainer}>
           <PhotoCarousel className={styles.carousel} />
         </div>
-        <div className={styles.review}>
-          <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
-          <p>-High Risk Wife / #1 Fan</p>
+
+        <div className={styles.reviewContainer}>
+          <div className={styles.review}>
+            <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+            <p>-High Risk Wife / #1 Fan</p>
+          </div>
+
+          <div className={styles.review}>
+            <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+            <p>-Barack Obama</p>
+          </div>
+
+          <div className={styles.review}>
+            <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
+            <p>-Basically Everyone</p>
+          </div>
         </div>
-        <div className={styles.review}>
-          <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
-          <p>-Barack Obama</p>
-        </div>
-        <div className={styles.review}>
-          <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
-          <p>-Basically Everyone</p>
-        </div>
+
       </div>
     </div>
   );
