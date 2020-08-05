@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function useDeviceDetect() {
   const [isMobile, setIsMobile] = useState(false);
@@ -11,10 +11,13 @@ export default function useDeviceDetect() {
         ? ''
         : navigator.userAgent;
 
-        comst mobile = Boolean(
-          userAgent.match(
-            /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
-          )
-        );
+    const mobile = Boolean(
+      userAgent.match(
+        /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
+      )
+    );
+    setIsMobile(mobile);
   }, []);
+
+  return { isMobile };
 }
