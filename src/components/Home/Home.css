@@ -41,10 +41,8 @@
     text-align: center;
   }
 
-  .bioOverflow {
-    @media only screen and (max-width: 600px) {
-      display: none;
-    }
+  .Collapsible__contentOuter {
+    background: red;
   }
 
   .headshotContainer {
