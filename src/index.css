@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+  @media only screen and (max-width: 600px) {
+    margin-right: -5px;
+  }
+}
+
 body {
   margin: 0;
   background-color: rgb(72, 100, 122);
