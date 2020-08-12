@@ -6,6 +6,10 @@
   background-repeat: repeat;
   padding: 10px;
 
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+  }
+
   .contact {
     margin: 0 25px;
     padding: 5px;
