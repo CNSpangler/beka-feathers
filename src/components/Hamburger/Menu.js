@@ -3,6 +3,10 @@ import styles from './Menu.css';
 import { bool } from 'prop-types';
 
 const Menu = ({ open }) => {
+  const styles = {
+    transform: `${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'}`
+  };
+
   return (
     <div className={styles.Menu} open={open}>
       <a href="/">
