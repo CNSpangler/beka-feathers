@@ -16,6 +16,7 @@ const history = createBrowserHistory();
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <Router history={history}>
         <Header />
         <Switch>

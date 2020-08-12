@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 // import NavBar from '../NavBar/NavBar.js';
 import styles from './Header.css';
-import Burger from '../Hamburger/Burger.js';
-import Menu from '../Hamburger/Menu';
+import Burger from '../Hamburger/Burger/Burger.js';
+import Menu from '../Hamburger/Menu/Menu';
 
 const Header = () => {
   const [open, setOpen] = useState(false);

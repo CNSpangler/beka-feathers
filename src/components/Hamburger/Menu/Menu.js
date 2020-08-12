@@ -1,14 +1,9 @@
 import React from 'react';
-import styles from './Menu.css';
-import { bool } from 'prop-types';
+import { StyledMenu } from './Menu.styled';
 
-const Menu = ({ open }) => {
-  const styles = {
-    transform: `${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'}`
-  };
-
+const Menu = () => {
   return (
-    <div className={styles.Menu} open={open}>
+    <StyledMenu>
       <a href="/">
         <span role="img" aria-label="about us">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
         About us
@@ -21,12 +16,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="contact">&#x1f4e9;</span>
         Contact
       </a>
-    </div>
+    </StyledMenu>
   );
 };
-
-Menu.propTypes = {
-  open: bool.isRequired
-};
-
 export default Menu;

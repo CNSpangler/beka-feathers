@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './Burger.css';
+import { StyledBurger } from './Burger.styled';
 
 const Burger = () => {
   return (
-    <div className={styles.Burger}>
+    <StyledBurger>
       <div />
       <div />
       <div />
-    </div>
+    </StyledBurger>
   );
 };
 
