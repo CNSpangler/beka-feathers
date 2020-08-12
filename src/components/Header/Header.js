@@ -1,6 +1,7 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar.js';
+// import NavBar from '../NavBar/NavBar.js';
 import styles from './Header.css';
+import Burger from '../Hamburger/Burger.js';
 
 const Header = () => {
   
@@ -10,6 +11,7 @@ const Header = () => {
         <div className={styles.banner}>
           <img src="header.png" />
         </div>
+        <Burger />
         {/* <div id={styles.navContainer}>
         <NavBar />
       </div> */}
