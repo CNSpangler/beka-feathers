@@ -23,7 +23,7 @@
     text-align: justify;
 
     @media only screen and (max-width: 600px) {
-      text-align: justify;
+      text-align: left;
     }
   }
 

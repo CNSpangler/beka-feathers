@@ -6,7 +6,7 @@ const Contact = () => (
     <div className={styles.cardContainer}>
       <div className={styles.contactCard}>
         <a 
-          href="mailto:beka.feathers@gmail.com" 
+          href="mailto:bfeathers@poldev.org" 
           target="_blank" 
           rel="noreferrer"
         >

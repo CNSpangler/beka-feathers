@@ -15,7 +15,7 @@ const Footer = () => (
 
     <div className={styles.contact}>
       <img src="email.png" />
-      <a href="mailto:beka.feathers@gmail.com" target="_blank" rel="noreferrer">Email</a>
+      <a href="mailto:bfeathers@poldev.org" target="_blank" rel="noreferrer">Email</a>
     </div>
   </div>
 );
