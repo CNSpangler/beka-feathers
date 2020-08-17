@@ -44,8 +44,8 @@ const Home = () => {
 
         <div className={styles.reviewContainer}>
           <div className={styles.review}>
-            <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
-            <p>-High Risk Wife / #1 Fan</p>
+            <p>"Beka was a tremendous value add to our proposal process. Her grasp of the technical area and application of the latest critical thinking to program design was immensely valuable."</p>
+            <p>-Former Client</p>
           </div>
 
           <div className={styles.review}>
