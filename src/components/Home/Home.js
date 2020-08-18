@@ -2,6 +2,7 @@ import React from 'react';
 import Collapsible from 'react-collapsible';
 import styles from './Home.css';
 import PhotoCarousel from '../PhotoCarousel/PhotoCarousel';
+import ReviewCarousel from '../ReviewCarousel/ReviewCarousel';
 import reviewData from './reviewData.json';
 import useDeviceDetect from '../../../utils/useDeviceDetect';
 
@@ -10,7 +11,6 @@ const reviewElements = reviewData.map(review => (
     <p>{review.body}</p>
     <p>{review.name}</p>
   </div>
-
 ));
 
 const Home = () => {
@@ -54,15 +54,15 @@ const Home = () => {
         {isMobile
           ? <div className={styles.reviewCarouselContainer}>
             <div>MOBILE CAROUSEL!</div>
-            <PhotoCarousel className={styles.carousel} />
+            <ReviewCarousel className={styles.carousel} reviewElements={reviewElements} />
           </div>
 
           : <div>test</div>
         }
 
-        <div className={styles.reviewContainer}>
+        {/* <div className={styles.reviewContainer}>
           {reviewElements}
-        </div>
+        </div> */}
 
       </div>
     </div>
