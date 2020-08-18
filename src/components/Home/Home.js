@@ -2,7 +2,16 @@ import React from 'react';
 import Collapsible from 'react-collapsible';
 import styles from './Home.css';
 import PhotoCarousel from '../PhotoCarousel/PhotoCarousel';
+import reviewData from './reviewData.json';
 import useDeviceDetect from '../../../utils/useDeviceDetect';
+
+const reviewElements = reviewData.map(review => (
+  <div className={styles.review} key={review.name}>
+    <p>{review.body}</p>
+    <p>{review.name}</p>
+  </div>
+
+));
 
 const Home = () => {
   const { isMobile } = useDeviceDetect();
@@ -52,20 +61,7 @@ const Home = () => {
         }
 
         <div className={styles.reviewContainer}>
-          <div className={styles.review}>
-            <p>"Beka was a tremendous value add to our proposal process. Her grasp of the technical area and application of the latest critical thinking to program design was immensely valuable."</p>
-            <p>-Former Client</p>
-          </div>
-
-          <div className={styles.review}>
-            <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
-            <p>-Barack Obama</p>
-          </div>
-
-          <div className={styles.review}>
-            <p>This is a heartfelt review about how amazing Beka Feathers is.</p>
-            <p>-Basically Everyone</p>
-          </div>
+          {reviewElements}
         </div>
 
       </div>
