@@ -53,17 +53,13 @@ const Home = () => {
 
         {isMobile
           ? <div className={styles.reviewCarouselContainer}>
-            <div>MOBILE CAROUSEL!</div>
             <ReviewCarousel className={styles.carousel} reviewElements={reviewElements} />
           </div>
 
-          : <div>test</div>
+          : <div className={styles.reviewContainer}>
+            {reviewElements}
+          </div>
         }
-
-        {/* <div className={styles.reviewContainer}>
-          {reviewElements}
-        </div> */}
-
       </div>
     </div>
   );

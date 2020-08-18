@@ -2,9 +2,8 @@ import React from 'react';
 import Carousel from 'nuka-carousel';
 import styles from './ReviewCarousel.css';
 
-
 const ReviewCarousel = ({ reviewElements }) => (
-  <div className={PhotoCarousel}>
+  <div>
     <Carousel 
       className={styles.PhotoCarousel} 
       autoplay={true} 
