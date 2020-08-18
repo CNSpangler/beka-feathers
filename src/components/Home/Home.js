@@ -51,15 +51,19 @@ const Home = () => {
           <PhotoCarousel className={styles.carousel} />
         </div>
 
-        {isMobile
+        <div className={styles.reviewContainer}>
+          {reviewElements}
+        </div>
+
+        {/* {isMobile
           ? <div className={styles.reviewCarouselContainer}>
-            <ReviewCarousel className={styles.carousel} reviewElements={reviewElements} />
+            <ReviewCarousel className={styles.reviewCarousel} reviewElements={reviewElements} />
           </div>
 
           : <div className={styles.reviewContainer}>
             {reviewElements}
           </div>
-        }
+        } */}
       </div>
     </div>
   );
