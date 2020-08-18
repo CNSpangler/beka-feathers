@@ -42,6 +42,15 @@ const Home = () => {
           <PhotoCarousel className={styles.carousel} />
         </div>
 
+        {isMobile
+          ? <div className={styles.reviewCarouselContainer}>
+            <div>MOBILE CAROUSEL!</div>
+            <PhotoCarousel className={styles.carousel} />
+          </div>
+
+          : <div>test</div>
+        }
+
         <div className={styles.reviewContainer}>
           <div className={styles.review}>
             <p>"Beka was a tremendous value add to our proposal process. Her grasp of the technical area and application of the latest critical thinking to program design was immensely valuable."</p>
